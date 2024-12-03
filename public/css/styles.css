@@ -1,0 +1,141 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #4a4a4a; /* Color más oscuro para mayor contraste */
+    background-color: #eeeffa; /* Fondo crema más claro */
+}
+
+header, footer {
+    background-color: #eeeffa; /* Verde suave claro */
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, rgba(236, 236, 250, 0.7), rgba(184, 138, 106, 0.7)); /* Fondo con gradiente desvanecido */
+    color: #333;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    color: #3c3c3c; /* Texto más oscuro para mejor contraste */
+}
+
+.hero .btn-primary {
+    background-color: #eeeffa; /* Tono arena suave */
+    color: #ffffff; /* Texto blanco para mejor legibilidad */
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+    background-color: #b98a6a; /* Marrón suave al pasar el ratón */
+}
+
+/* Features & Benefits Sections */
+.features, .benefits {
+    padding: 40px 0;
+    background-color: #eeeffa; /* Fondo crema aún más suave */
+}
+
+.features h2, .benefits h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444444; /* Texto más oscuro para legibilidad */
+}
+
+.features .feature, .benefits .benefit {
+    padding: 20px;
+    background: #eeeffa;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+
+.features .feature:hover, .benefits .benefit:hover {
+    transform: scale(1.03);
+}
+
+/* Formulario de Contacto */
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact label {
+    margin-top: 10px;
+    color: #4a4a4a; /* Texto más oscuro */
+}
+
+.contact input, .contact textarea, .contact button {
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+.contact button {
+    background-color: #d9b8a8; /* Botón tono suave */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #b98a6a;
+}
+
+/* Footer */
+footer p {
+    font-size: 0.9em;
+    color: #eeeeee; /* Texto blanco suave */
+}
+
+/* Navbar */
+#main-nav {
+    background-color: #d8efe1; /* Verde grisáceo más claro */
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#main-nav ul li {
+    flex: 1;
+}
+
+#main-nav ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: #333333; /* Texto oscuro para contraste */
+    text-align: center;
+    text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+    background-color: #3c4d7f;
+}
